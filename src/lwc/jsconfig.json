@@ -1,0 +1,62 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/auraPubsub": [
+                "auraPubsub/auraPubsub.js"
+            ],
+            "c/brokerCard": [
+                "brokerCard/brokerCard.js"
+            ],
+            "c/daysOnMarket": [
+                "daysOnMarket/daysOnMarket.js"
+            ],
+            "c/helloWorld": [
+                "helloWorld/helloWorld.js"
+            ],
+            "c/inlineMessage": [
+                "inlineMessage/inlineMessage.js"
+            ],
+            "c/ldsUtils": [
+                "ldsUtils/ldsUtils.js"
+            ],
+            "c/paginator": [
+                "paginator/paginator.js"
+            ],
+            "c/propertyCarousel": [
+                "propertyCarousel/propertyCarousel.js"
+            ],
+            "c/propertyFilter": [
+                "propertyFilter/propertyFilter.js"
+            ],
+            "c/propertyMap": [
+                "propertyMap/propertyMap.js"
+            ],
+            "c/propertySummary": [
+                "propertySummary/propertySummary.js"
+            ],
+            "c/propertyTile": [
+                "propertyTile/propertyTile.js"
+            ],
+            "c/propertyTileList": [
+                "propertyTileList/propertyTileList.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
+            ],
+            "c/sampleDataImporter": [
+                "sampleDataImporter/sampleDataImporter.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
